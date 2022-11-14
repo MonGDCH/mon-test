@@ -1,0 +1,21 @@
+{
+    "name": "mongdch/mon-test",
+    "description": "The test package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "mon\\test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mon",
+            "email": "985558837@qq.com",
+            "homepage": "http://www.gdmon.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    }
+}
