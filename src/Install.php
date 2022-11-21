@@ -28,11 +28,6 @@ class Install
         // 配置信息
         $config = \mon\env\Config::instance()->get();
         var_dump($config);
-        echo "-------------\r\n";
-        // 控制台
-        $console = \gaia\App::console();
-        var_dump($console);
-        echo "-------------\r\n";
     }
 
     /**
