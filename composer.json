@@ -5,7 +5,10 @@
     "autoload": {
         "psr-4": {
             "mon\\test\\": "src/"
-        }
+        },
+        "files": [
+            "./src/bootstrap.php"
+        ]
     },
     "authors": [
         {
